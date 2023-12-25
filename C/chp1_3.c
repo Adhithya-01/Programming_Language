@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[i]);
         sum=sum+arr[i];
     }
-    avg=(sum/500)*100;
+    avg=sum/5;
     printf("Aggregate Mark = %d",sum);
-    printf("Percentage = %d%",avg);
+    printf("Percentage = %d",avg);
 }
